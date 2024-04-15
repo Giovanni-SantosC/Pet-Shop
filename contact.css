@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: bisque;
+}
+
+.hea {
+display: flex;
+background-color: #ffa500;
+color: rgb(0, 0, 0);
+border-radius: 90px;
+font-family: Arial, Helvetica, sans-serif;
+padding: 30px;
+margin-top: 10px;
+margin-left: 40px;
+margin-right: 50px;
+}
+
+.text{
+display: flex;
+justify-content: center;
+margin-left: 300px;
+
+}
+
+.logotipo{
+    display: flex;
+    align-items: center;
+}
+
+.o{
+    font-size: 30px;
+}
+
+.logotipo img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+
+.contact h1{
+    padding: 10px 20px;
+    background-color: #005aff;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-top: 20px;
+}
+
+.contact {
+     display: flex;
+    justify-content: center;
+   
+}
+    
+#nav a{
+    background-color: #ffa500;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#nav {
+    display: flex;
+    justify-content: center;
+}
+
+#nav a:hover{
+    transition: 500ms;
+    background: #005aff;
+}
+
+.pai {
+ display: flex;
+gap: 150px;
+justify-content: center;
+ margin-top: 20px;
+ margin-bottom: 40px;
+ 
+}
+
+.info-contact {
+    display: flex;
+    background: #ffa500;
+    padding: 30px;
+    width: 400px;
+    height: 500px;
+    border-radius: 70px;
+    text-align: center;
+    border: solid black 3px;
+ }
+ 
+main h2{
+   padding: 10px;
+   margin-left: 20px;
+}
+
+ main p,h3{
+    padding: 15px;    
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    background: #005aff;
+    padding: 30px;
+    width: 400px;
+    height: 500px;
+    border-radius: 70px;
+    color: aliceblue;
+    border: solid black 3px;
+}
+.forms h1, .forms h2{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+
+form input{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 40px;
+    height: 30px;
+    border-radius: 20px;
+border: none;
+}
+
+form .email label{
+    display: flex;
+    padding: 5px; 
+}
+
+form .pass label{
+    display: flex;
+    padding: 5px;
+}
+
+form .tell label{
+    display: flex;
+    padding: 5px;
+}
+
+form .msg label {
+    display: flex;
+    padding: 5px;
+}
+
+form ::placeholder{
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    
+    
+}
+
+.button button{
+   padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.button button:hover{
+    transition: 500ms;
+    background: red;
+}
+
+
+
+
+
+
+
+
+/* #i1 {
+    display: flex;
+    justify-content: baseline;
+    margin-left: 70px;
+ 
+
+} */
+
+
+
+
+
+/* ul {
+    display: flex;
+    gap: 400px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type: none;
+
+
+
+
+}
+
+ul a {
+    text-decoration: none;
+}
+
+#p3 {
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 20px;
+} */
+
+/* .Formulario {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 25px;
+    background: rgb(111, 181, 255);
+    padding: 20px;
+    border-radius: 80px;
+    margin-top: 40px;
+} */
+
+/* .Formulario h1 {
+    display: flex;
+    justify-content: center;
+} */
+
+
+
