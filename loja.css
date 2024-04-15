@@ -1,0 +1,459 @@
+
+body{
+    background: bisque;
+}
+
+header{
+    display: flex;
+    background-color: #ffa500;
+    align-items: center;
+    border-radius: 50px;  
+    gap: 350px;
+}
+
+header p{
+    font-size: 30px;
+}
+
+header img{
+height: 50px;
+width: 50px;
+object-fit: cover;
+}
+
+.logotipo{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+   
+}
+
+/* main */
+.loja{
+    display: flex;
+    justify-content: center;
+}
+
+.loja h1{
+    padding: 10px 20px;
+    background-color: #005aff;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-top: 20px;
+    
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+}
+
+.link a{
+    background-color: #ffa500;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+}
+.link a:hover{
+    transition: 500ms;
+    background: #005aff;
+}
+
+/* Caes */
+
+.nav{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav h1{
+    background-color: #ffa500;
+    padding: 10px 40px;
+    border-radius: 20px;
+    margin-top: 40px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 0;
+}
+
+/* imagem cao e promocao */
+
+.navc{
+    display: flex;
+    gap: 245px;
+    margin: 20px;
+}
+
+.navc h3{
+    border: solid #ffa500 3px;
+    background: linear-gradient(to bottom, #ffa500, #005aff );
+    width: 230px;
+    height: 50px;
+   border-radius: 50px;
+   margin-left: 50px;
+   color: aliceblue;
+   padding: 20px;
+   text-align: center;
+    
+}
+
+.navc img{
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+object-fit: cover;
+margin-bottom: 20px;
+border: solid black 2px;
+}
+
+/* imagem gato */
+
+.navg{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   
+}
+
+.navg img{
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+object-fit: cover;
+margin-bottom: 20px;
+border: solid black 2px;
+
+}
+
+
+
+ /* imagens */
+
+.pai{
+display: flex;
+justify-content: space-around;
+
+
+}
+
+ .paiimg img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border: solid black 2px;
+}
+
+.paiimg{
+padding: 20px;
+background: linear-gradient(to bottom, #ffa500, #005aff );
+padding-bottom: 40px;
+border-radius: 30px;
+border: solid rgb(255, 196, 0) 3px;
+
+}
+
+.paipreco{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: aliceblue;
+
+}
+
+.paipreco h2{
+    text-align: center;
+}
+
+.paipreco h3{
+    display: flex;
+    justify-content: center;
+  margin-top: 20px;
+}
+
+.paipreco span{
+    display: flex;
+    justify-content: center;
+}
+
+
+.paibutton{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    box-shadow: black 60px solid;
+}
+
+.paibutton button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    
+}
+
+.paibutton button:hover{
+    transition: 500ms;
+    background: #fa0000;
+    
+}
+
+
+/* rodape */
+
+footer{
+    margin-top: 100px;
+
+}
+
+/* resolucoes */
+
+@media screen and (max-width:1920px) {
+
+    .navc{
+        gap: 0;
+        width: 925px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 100px;
+    }
+
+header{
+
+    gap: 0;
+}
+
+.logotipo{
+    width: 810px;
+}
+
+}
+
+@media screen and (max-width:1280px){
+
+    .logotipo{
+        width: 480px;
+    }
+
+    .navc{
+        width: 710px;
+        margin: 0;
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width:768px){
+
+
+    header{
+        width: 768px;
+        gap: 0;
+        
+    }
+
+    .logotipo{
+        width: 250px;
+    }
+
+    .pai{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .navc{
+        flex-direction: column;
+        margin-left: 230px;
+        gap: 20px;
+        width: 500px;
+
+    }
+
+    .navc h3{
+        margin: 0;
+        
+    }
+
+    .navc img{
+        margin-left: 70px;
+    }
+
+    .pai img{
+        width: 400px;
+        height: 300px;
+        margin-left: 150px;
+    }
+}
+
+
+@media screen and (max-width:320px) {
+    .pai{
+        flex-direction: column;
+        max-width: 100%;
+        gap: 20px;
+    }
+
+    header{
+        flex-direction: column;
+        height: 170px;
+        width: 300px;
+        gap: 0;
+    }
+
+    .logotipo{
+        margin-left: 50px;
+    }
+
+    .navc{
+        height: 200px;
+        width: 200px;
+        margin-left: 50px;
+        margin-bottom: 30px;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .navc img{
+        margin-right: 60px;
+        
+        
+    }
+
+    .paiimg img{
+        width: 250px;
+        height: 250px;
+        margin: 0;
+    }
+
+
+    .paibutton{
+        margin-bottom: 10px;
+    }
+    
+
+   
+
+   
+
+    
+
+   
+
+   
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width:300px)  {
+    
+}
+
+@media screen and (max-width:500px)  {
+    .pai{
+        flex-direction: column;
+        max-width: 100%;
+        gap: 20px;
+        
+    }
+
+    .pai * {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    header {
+       flex-direction: column;
+       gap: 0;
+    }
+
+    .navc{
+        flex-direction: column; 
+       gap: 0;
+       margin-left: 50px;
+       
+    }
+
+    .navc img{
+        margin-top: 10px;
+  margin-left: 60px;
+   
+    }
+
+   .navc h3{
+    margin: 0;
+
+   }
+
+    .paiimg img{
+        margin-left: 45px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    .paipreco h2{
+      margin-bottom: 5px;
+
+    }
+
+    .paibutton{
+       margin-top: 10px;
+    }
+    
+}
+
+@media screen and (max-width:600px){
+*{
+    max-width: 100%; 
+}
+
+header{
+    flex-direction: column;
+    gap: 1px;
+}
+
+.navc{
+    flex-direction: column;
+    gap: 0;
+    margin-left: 100px;
+}
+
+.navc img{
+   margin-top: 20px;
+   margin-left: 60px;
+}
+
+.navc h3{
+margin: 0;
+
+}
+
+.pai{
+    flex-direction: column;
+    gap: 20px;
+    
+    
+}
+
+.paiimg img{
+    border: solid black 2px;
+    margin-left: 90px;
+    margin-top: 20px;
+    
+}
+
+
+
+
+    
+} */
